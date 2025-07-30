@@ -18,7 +18,7 @@ Este repositorio contiene un ejemplo básico de cómo visualizar tokens de dise�
 
     *************** Desde el archivo scripts.js se hace fetch para consumir valores de los tokens en .json y asigarlos a variables css globales para luego aplicarlas en el archivo de styles.css en el componente de test como se muestra en el siguiente ejemplo:
 
-------------------------------------
+---
 
 .button {
      
