@@ -7,25 +7,21 @@ Este repositorio contiene un ejemplo básico de cómo visualizar tokens de dise�
 ## 📦 Estructura del proyecto
 
 .
-├── index.html ← Página principal
+├── index.html
 ├── tokens/
-    ├── token_Collection1_Light.css ← Variables CSS generadas desde figma a zeroheight para tema Light
-    ├── token_Collection1_Dark.css ← Variables CSS generadas desde figma a zeroheight para tema Dark
-    ├── token_Collection1_Light.json ← Variables en formato json generadas desde figma a zeroheight para tema Light
-    ├── token_Collection1_Dark.json ← Variables en formato json generadas desde figma a zeroheight para tema Dark
-├── styles.css/ ------------ en esta hoja de estilos se importan las variables desde los estilos de tokens globales Light y Dark -------------
-├── scripts.js/ ------------ script para consumir valores de tokens desde archivo .json y asigarlos a variables css en styles.css --------------
+    ├── token_Collection1_Light.css 
+    ├── token_Collection1_Dark.css
+    ├── token_Collection1_Light.json 
+    ├── token_Collection1_Dark.json
+├── styles.css/
+├── scripts.js/
 
 Desde el archivo scripts.js se hace fetch para consumir valores de los tokens en .json y asigarlos a variables css globales para luego aplicarlas en el archivo de styles.css en el componente de test como se muestra en el siguiente ejemplo:
 
 ---
 
-.button {
-     
+.button {   
      padding: var(--spacing-xl); 
-     /* -------- mantener valores asociados a tokens permite la escalabilidad y el mantenimiento 
-     de los componentes UI de manera ágil entre los equipos de diseño y desarrollo evitando incosistencias y retrabajo ---------- */
-
      border-radius: var(--border-radius-s);
      background-color: var(--alias-200);
      color: var(--acentos);
@@ -54,7 +50,7 @@ cd tokens-zeroheight
 Abrí el archivo index.html en tu navegador
 o servilo localmente con VS Code (Live Server) en Vs Code:
 
-/***********************************************************************************/
+---
 
 🧪 Cómo se usan los tokens
 Los tokens se exportan desde Zeroheight en formato CSS o JSON.
