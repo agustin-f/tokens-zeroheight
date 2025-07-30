@@ -16,9 +16,9 @@ Este repositorio contiene un ejemplo básico de cómo visualizar tokens de dise�
 ├── styles.css/ ------------ en esta hoja de estilos se importan las variables desde los estilos de tokens globales Light y Dark -------------
 ├── scripts.js/ ------------ script para consumir valores de tokens desde archivo .json y asigarlos a variables css en styles.css --------------
 
-    *************** Desdel archivo scripts.js se hace fetch para consumir valores de los tokens en .json y asigarlos a variables css globales para luego aplicarlas en el archivo de styles.css en el componente de test como se muestra en el siguiente ejemplo:
+Desde el archivo scripts.js se hace fetch para consumir valores de los tokens en .json y asigarlos a variables css globales para luego aplicarlas en el archivo de styles.css en el componente de test como se muestra en el siguiente ejemplo:
 
-------------------------------------
+---
 
 .button {
      
@@ -34,7 +34,7 @@ Este repositorio contiene un ejemplo básico de cómo visualizar tokens de dise�
   }
 
 
-------------------------------------
+---
 
 ## 🚀 Ver en producción
 
