@@ -16,9 +16,6 @@ Este repositorio contiene un ejemplo básico de cómo visualizar tokens de dise�
 ├── styles.css ← Hoja principal, importa tokens globales
 ├── scripts.js ← Script para consumir tokens desde JSON
 
-yaml
-Copiar
-Editar
 
 ---
 
@@ -31,19 +28,14 @@ Los tokens se exportan desde **Zeroheight** en formato **CSS o JSON**, luego se 
   --color-primary: #0055ff;
   --spacing-xl: 2rem;
 }
+
 Y se importan en styles.css así:
 
-css
-Copiar
-Editar
 @import './tokens/token_Collection1_Light.css';
 @import './tokens/token_Collection1_Dark.css';
+
 Desde scripts.js se hace un fetch de los archivos .json y se asignan dinámicamente los valores como variables CSS globales.
 
-Ejemplo de uso de tokens:
-css
-Copiar
-Editar
 .button {
   padding: var(--spacing-xl);
   border-radius: var(--border-radius-s);
@@ -52,16 +44,27 @@ Editar
   border: none;
   cursor: pointer;
 }
+
+Ejemplo de uso de tokens:
+
+.button {
+  padding: var(--spacing-xl);
+  border-radius: var(--border-radius-s);
+  background-color: var(--alias-200);
+  color: var(--acentos);
+  border: none;
+  cursor: pointer;
+}
+
+
 🧩 Mantener los componentes con tokens facilita la escalabilidad, coherencia visual y colaboración entre diseño y desarrollo.
 
 ▶️ Cómo probarlo localmente
 Cloná este repositorio:
 
-bash
-Copiar
-Editar
 git clone https://github.com/agustin-f/tokens-zeroheight.git
 cd tokens-zeroheight
+
 Abrí el archivo index.html en tu navegador
 o usá Live Server en VS Code para servirlo localmente.
 
@@ -78,10 +81,9 @@ Aceptá el PR.
 
 En tu máquina local:
 
-bash
-Copiar
-Editar
 git pull origin main
+
+
 Si estás usando Live Server, verás los cambios reflejados automáticamente.
 Al pushearlos a GitHub, también se actualiza la versión en Netlify.
 
@@ -97,3 +99,4 @@ Este proyecto es una prueba de integración entre tokens de diseño, GitHub y de
 
 📄 Licencia
 MIT – Libre para clonar, modificar y experimentar.
+
