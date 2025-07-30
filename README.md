@@ -17,7 +17,7 @@ Este repositorio contiene un ejemplo básico de cómo visualizar tokens de dise�
 
 Este proyecto está desplegado con [Netlify]. Podés acceder a la versión online desde:
 
-👉 [https://tokens-zeroheight.vercel.app](https://tokens-zeroheight.netlify.app/)
+👉 https://tokens-zeroheight.netlify.app/
 
 ---
 
