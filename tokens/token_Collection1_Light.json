@@ -37,7 +37,7 @@
   },
   "border-radius-s": {
     "$type": "number",
-    "$value": 50
+    "$value": 4
   },
   "border-radius-xl": {
     "$type": "number",
