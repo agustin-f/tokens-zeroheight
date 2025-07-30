@@ -21,8 +21,8 @@ h1 {
 }
 .button {
   padding: var(--spacing-xl);
-  border-radius: var(--border-radius-xl);
-  background-color: var(--alias-500);
+  border-radius: var(--border-radius-m);
+  background-color: var(--alias-200);
   color: var(--acentos);
   border: none;
   cursor: pointer;
