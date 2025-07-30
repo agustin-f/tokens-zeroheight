@@ -1,0 +1,29 @@
+@import './tokens/token_Collection1_Light.css';
+@import './tokens/token_Collection1_Dark.css';
+
+:root {
+  /* Variables se insertarán dinámicamente desde JS */
+}
+
+
+body {
+  background-color: var(--bg-mode);
+  color: var(--color-alias-300);
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+.button {
+  padding: var(--spacing-xl);
+  border-radius: var(--border-radius-xl);
+  background-color: var(--alias-500);
+  color: var(--acentos);
+  border: none;
+  cursor: pointer;
+}

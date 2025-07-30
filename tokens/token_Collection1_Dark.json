@@ -1,0 +1,62 @@
+{
+  "acentos": {
+    "$type": "color",
+    "$value": "#ffffff"
+  },
+  "alias-100": {
+    "$type": "color",
+    "$value": "#272d31"
+  },
+  "alias-200": {
+    "$type": "color",
+    "$value": "#c30600"
+  },
+  "alias-300": {
+    "$type": "color",
+    "$value": "#466275"
+  },
+  "alias-400": {
+    "$type": "color",
+    "$value": "#567c98"
+  },
+  "alias-500": {
+    "$type": "color",
+    "$value": "#6596ba"
+  },
+  "bg-mode": {
+    "$type": "color",
+    "$value": "#000000"
+  },
+  "border-radius-l": {
+    "$type": "number",
+    "$value": 16
+  },
+  "border-radius-m": {
+    "$type": "number",
+    "$value": 8
+  },
+  "border-radius-s": {
+    "$type": "number",
+    "$value": 4
+  },
+  "border-radius-xl": {
+    "$type": "number",
+    "$value": 24
+  },
+  "spacing-l": {
+    "$type": "number",
+    "$value": 16
+  },
+  "spacing-m": {
+    "$type": "number",
+    "$value": 8
+  },
+  "spacing-s": {
+    "$type": "number",
+    "$value": 4
+  },
+  "spacing-xl": {
+    "$type": "number",
+    "$value": 24
+  }
+}
