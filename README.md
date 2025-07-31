@@ -30,9 +30,6 @@ tokens-zeroheight/
 │ ├── token_Collection1_Light.json # Tokens en formato JSON (Light)
 │ ├── token_Collection1_Dark.json # Tokens en formato JSON (Dark)
 
-yaml
-Copiar
-Editar
 
 ---
 
@@ -87,9 +84,7 @@ Al hacer push a GitHub, Netlify detecta los cambios y despliega automáticamente
 ¡Listo! Los tokens de Figma impactan en producción tras publicar desde Zeroheight y aceptar el PR.
 
 💡 Ejemplo de uso de tokens
-css
-Copiar
-Editar
+
 .button {
   padding: var(--spacing-xl);
   border-radius: var(--border-radius-s);
@@ -98,6 +93,7 @@ Editar
   border: none;
   cursor: pointer;
 }
+
 Mantener los estilos con tokens centralizados mejora la escalabilidad, la coherencia visual y reduce el retrabajo entre diseño y desarrollo.
 
 🙌 Invitación a la comunidad
